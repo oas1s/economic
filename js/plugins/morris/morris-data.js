@@ -4,58 +4,58 @@ $(function() {
         element: 'morris-area-chart',
         data: [{
             period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            SberBank: 2666,
+            TinkoffBank: null,
+            AlfaBank: 2647
         }, {
             period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            SberBank: 2778,
+            TinkoffBank: 2294,
+            AlfaBank: 2441
         }, {
             period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            SberBank: 4912,
+            TinkoffBank: 1969,
+            AlfaBank: 2501
         }, {
             period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            SberBank: 3767,
+            TinkoffBank: 3597,
+            AlfaBank: 5689
         }, {
             period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            SberBank: 6810,
+            TinkoffBank: 1914,
+            AlfaBank: 2293
         }, {
             period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            SberBank: 5670,
+            TinkoffBank: 4293,
+            AlfaBank: 1881
         }, {
             period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            SberBank: 4820,
+            TinkoffBank: 3795,
+            AlfaBank: 1588
         }, {
             period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
+            SberBank: 15073,
+            TinkoffBank: 5967,
+            AlfaBank: 5175
         }, {
             period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
+            SberBank: 10687,
+            TinkoffBank: 4460,
+            AlfaBank: 2028
         }, {
             period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            SberBank: 8432,
+            TinkoffBank: 5713,
+            AlfaBank: 1791
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['SberBank', 'TinkoffBank', 'AlfaBank'],
+        labels: ['SberBank', 'TinkoffBank', 'AlfaBank'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true
